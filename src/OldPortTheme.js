@@ -1,5 +1,4 @@
-import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
-import Navbar from "./Components/Navbar";
+import { createTheme } from "@mui/material/styles";
 
 const OldPortTheme = createTheme({
         

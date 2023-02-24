@@ -1,16 +1,15 @@
 
 import './App.css';
 
-import AboutMe  from './Components/AboutMe';
 import Navbar from './Components/Navbar';
-import Resume from './Components/Resume';
-import Projects from './Components/Projects';
-import DevLog from './Components/DevLog';
-import Skills from './Components/Skills';
-import Contact from './Components/Contact';
+// import AboutMe  from './Components/AboutMe';
+// import Resume from './Components/Resume';
+// import Projects from './Components/Projects';
+// import DevLog from './Components/DevLog';
+// import Skills from './Components/Skills';
+// import Contact from './Components/Contact';
 
 import CommonButton from './Components/Common/CommonButton';
-import { fontWeight } from '@mui/system';
 
 import { Divider, Grid } from '@mui/material';
 
