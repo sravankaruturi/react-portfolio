@@ -1,21 +1,58 @@
 
 import './App.css';
 
-import AboutMe  from './Modules/AboutMe';
-import Navbar from './Modules/Navbar';
-import Resume from './Modules/Resume';
-import Projects from './Modules/Projects';
-import DevLog from './Modules/DevLog';
-import Skills from './Modules/Skills';
-import Contact from './Modules/Contact';
+import AboutMe  from './Components/AboutMe';
+import Navbar from './Components/Navbar';
+import Resume from './Components/Resume';
+import Projects from './Components/Projects';
+import DevLog from './Components/DevLog';
+import Skills from './Components/Skills';
+import Contact from './Components/Contact';
 
-import { Button } from '@mui/material';
+import CommonButton from './Components/Common/CommonButton';
+import { fontWeight } from '@mui/system';
+
+import { Divider, Grid } from '@mui/material';
 
 function App() {
+
+  const buttonStyles={
+    fontSize: 20,
+    fontWeight: 700,
+    backgroundColor: 'red',
+  }
+
   return (
     <div className="App">
 
       <Navbar />
+
+      <Divider></Divider>
+
+      <Grid>
+        <CommonButton 
+            size="large"
+            variant='contained'
+            sx={buttonStyles}
+            >
+          Hello World!
+        </CommonButton>
+
+        <CommonButton 
+            size="large"
+            variant='contained'
+            >
+          Second One
+        </CommonButton>
+
+        <CommonButton 
+            size="large"
+            variant='contained'
+            sx={buttonStyles}
+            >
+          Third One
+        </CommonButton>
+      </Grid>
 
       {/* <Navbar />
       <AboutMe />
