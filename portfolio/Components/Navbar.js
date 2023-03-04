@@ -5,7 +5,7 @@ function Navbar(){
     return (
         <section>
           <nav className='py-6 flex justify-between bg-slate-800'>
-            <h1 className='text-xl font-serif text-white mx-10'> Sravan Karuturi </h1>
+            <h1 className='text-xl font-serif text-white mx-10'> Sravan Karuturi - WIP </h1>
             <ul className='flex items-center mx-10'>
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl text-white' />
