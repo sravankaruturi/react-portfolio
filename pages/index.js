@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-// import Navbar from '@/Components/Navbar';
+import Navbar from '@/Components/Navbar';
 // import Intro from '@/Components/Intro'
 // import HomescreenPortfolio from '@/Components/HomescreenPortfolio';
 // import Footer from '@/Components/Footer'
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className='bg-white px-0'>
         
-        {/* <Navbar /> */}
+        <Navbar />
         {/* <Intro /> */}
         {/* <HomescreenPortfolio /> */}
         {/* <Footer /> */}
