@@ -1,9 +1,9 @@
 import Head from 'next/head';
 
 import Navbar from '@/Components/Navbar';
-// import Intro from '@/Components/Intro'
-// import HomescreenPortfolio from '@/Components/HomescreenPortfolio';
-// import Footer from '@/Components/Footer'
+import Intro from '@/Components/Intro'
+import HomescreenPortfolio from '@/Components/HomescreenPortfolio';
+import Footer from '@/Components/Footer'
 
 export default function Home() {
   return (
@@ -17,13 +17,9 @@ export default function Home() {
       <main className='bg-white px-0'>
         
         <Navbar />
-        {/* <Intro /> */}
-        {/* <HomescreenPortfolio /> */}
-        {/* <Footer /> */}
-
-        <h1 className='text-teal-500'>
-          Hello!
-        </h1>
+        <Intro />
+        <HomescreenPortfolio />
+        <Footer />
 
       </main>
     </>

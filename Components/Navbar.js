@@ -8,7 +8,7 @@ function Navbar(){
             <h1 className='text-xl font-serif text-white mx-10'> Sravan Karuturi - WIP </h1>
             <ul className='flex items-center mx-10'>
               <li>
-                {/* <BsFillMoonStarsFill className='cursor-pointer text-2xl text-white' /> */}
+                <BsFillMoonStarsFill className='cursor-pointer text-2xl text-white' />
               </li>
               <li>
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
