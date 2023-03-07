@@ -8,7 +8,9 @@ function Intro(){
             <div className='text-center p-10 md:px-20 lg:px-40'>
                 <div className="relative ">
                 <div className='py-10'>
-                    <Image className='overflow-clip rounded-full w-80 h-80 flex mx-auto md:w-96 md:h-96' src={profile} />
+                    <Image className='overflow-clip rounded-full w-80 h-80 flex mx-auto md:w-96 md:h-96' 
+                        src={profile} alt="Sravan Karuturi Image"
+                    />
                 </div>
                 </div>
                 <h2 className='text-5xl py-2 text-white font-semibold md:text-6xl'>SRAVAN KARUTURI</h2>

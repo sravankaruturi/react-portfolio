@@ -16,18 +16,18 @@ function HomescreenPortfolio(){
                 </p>
             </div>
 
-            <div className="flex items-center p-5 justify-center">
-                <div className="p-10 text-center shadow-lg rounded-lg m-10 w-1/4 h-auto">
-                    <Image src={abcs} />
+            <div className="md:flex lg:flex items-center p-5 lg:justify-center">
+                <div className="p:10 lg:p-10 text-center shadow-lg rounded-lg mx-auto my-10 w-2/3 sm:w-2/3 sm:h-auto lg:w-1/4 lg:h-auto">
+                    <Image src={abcs} alt="Osmo LGK ABCs"/>
                     <h3> Osmo LGK ABCs </h3>
                 </div>
-                <div className="p-10 text-center shadow-lg rounded-lg m-10 w-1/4 h-auto">
-                    <Image src={wexp} />
-                    <h3> Osmo LGK ABCs </h3>
+                <div className="p:10 lg:p-10 text-center shadow-lg rounded-lg mx-auto my-10 w-2/3 sm:w-2/3 sm:h-auto lg:w-1/4 lg:h-auto">
+                    <Image src={wexp} alt="Osmo Words Explorers" />
+                    <h3> Osmo Words Explorers </h3>
                 </div>
-                <div className="p-10 text-center shadow-lg rounded-lg m-10 w-1/4 h-auto">
-                    <Image src={mbuzz} />
-                    <h3> Osmo LGK ABCs </h3>
+                <div className="p:10 lg:p-10 text-center shadow-lg rounded-lg mx-auto my-10 w-2/3 sm:w-2/3 sm:h-auto lg:w-1/4 lg:h-auto">
+                    <Image src={mbuzz} alt="Osmo MathBuzz" />
+                    <h3> Osmo GK+ MathBuzz </h3>
                 </div>
             </div>
         </section>
