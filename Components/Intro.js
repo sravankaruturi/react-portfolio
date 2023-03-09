@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profile from '../public/profile.png'
+import profile from '../Assets/profile.png'
 
 function Intro(){
 

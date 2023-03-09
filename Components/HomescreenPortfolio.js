@@ -1,6 +1,6 @@
-import abcs from "../public/project_media/Osmo/Abcs/appstorepreview.png";
-import wexp from "../public/project_media/Osmo/WordsExp/appstorepreview.png";
-import mbuzz from "../public/project_media/Osmo/MathBuzz/appstorepreview.png";
+import abcs from "../Assets/project_media/Osmo/Abcs/appstorepreview.png";
+import wexp from "../Assets/project_media/Osmo/WordsExp/appstorepreview.png";
+import mbuzz from "../Assets/project_media/Osmo/MathBuzz/appstorepreview.png";
 import { PortfolioComponent } from "./PortfolioComponent";
 
 function HomescreenPortfolio() {
