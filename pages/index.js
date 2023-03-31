@@ -4,6 +4,7 @@ import Navbar from '@/Components/Navbar';
 import Intro from '@/Components/Intro'
 import HomescreenPortfolio from '@/Components/HomescreenPortfolio';
 import Footer from '@/Components/Footer'
+import About from '@/Components/About';
 
 export default function Home() {
   return (
@@ -15,10 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='bg-white px-0'>
-        
+
         <Navbar />
         <Intro />
         <HomescreenPortfolio />
+        <About />
         <Footer />
 
       </main>
