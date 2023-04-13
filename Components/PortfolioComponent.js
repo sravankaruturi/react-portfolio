@@ -6,9 +6,9 @@ export function PortfolioComponent(props) {
   var imgSrc = props.src;
 
   return (
-    <div className="p:10 lg:p-10 text-center shadow-lg rounded-lg mx-auto my-10 w-2/3 sm:w-2/3 sm:h-auto lg:w-1/4 lg:h-auto">
-      <Image src={imgSrc} alt={title}/>
-      <h3> {title} </h3>
+    <div className="p:10 lg:p-10 text-center shadow-lg rounded-lg mx-auto my-10">
+      <Image src={imgSrc} width={imgSrc} alt={title} />
+      <h3 className="pt-3 text-teal-700 font-medium"> {title} </h3>
     </div>
   );
 }
